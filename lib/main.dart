@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_phone_number/features/user/app/splash/splash_screen.dart';
-import 'package:flutter_chat_phone_number/features/user/app/theme/styles.dart';
+import 'package:flutter_chat_phone_number/features/app/splash/splash_screen.dart';
+import 'package:flutter_chat_phone_number/features/app/theme/styles.dart';
 import 'package:flutter_chat_phone_number/routes/on_generate_routes.dart';
 
 void main() {

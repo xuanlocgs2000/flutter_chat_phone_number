@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_phone_number/features/chat/presentation/pages/chat_page.dart';
 import 'package:flutter_chat_phone_number/features/chat/presentation/pages/contact_page.dart';
-import 'package:flutter_chat_phone_number/features/user/app/const/page_const.dart';
+import 'package:flutter_chat_phone_number/features/app/const/page_const.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -87,25 +87,25 @@ class _HomePageState extends State<HomePage>
                 style: TextStyle(fontSize: 16, color: Colors.white),
               ),
             ),
-            Tab(
-              child: Text(
-                "Status",
-                style: TextStyle(fontSize: 16, color: Colors.white),
-              ),
-            ),
-            Tab(
-              child: Text(
-                "Call",
-                style: TextStyle(fontSize: 16, color: Colors.white),
-              ),
-            ),
+            // Tab(
+            //   child: Text(
+            //     "Status",
+            //     style: TextStyle(fontSize: 16, color: Colors.white),
+            //   ),
+            // ),
+            // Tab(
+            //   child: Text(
+            //     "Call",
+            //     style: TextStyle(fontSize: 16, color: Colors.white),
+            //   ),
+            // ),
           ],
         ),
       ),
       floatingActionButton: switchOnTabIndex(_curentTabIndex),
       body: TabBarView(
         controller: _tabController,
-        children: const [ChatPage()],//sswitch screeen tab
+        children: const [ChatPage()], //sswitch screeen tab
       ),
     );
   }

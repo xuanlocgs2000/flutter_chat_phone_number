@@ -47,6 +47,9 @@ dependencies:
   swipe_widget: ^0.0.2+1
   firebase_core: ^2.29.0
   firebase_auth: ^4.19.1
+  equatable: ^2.0.5
+  contacts_service: ^0.6.3
+  bloc: ^8.1.4
 
 dev_dependencies:
   flutter_test:

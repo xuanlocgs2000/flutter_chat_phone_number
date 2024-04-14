@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:flutter_chat_phone_number/features/user/app/welcome/welcome_page.dart';
+import 'package:flutter_chat_phone_number/features/app/welcome/welcome_page.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_phone_number/features/user/app/global/widgets/profile_widget.dart';
+import 'package:flutter_chat_phone_number/features/app/global/widgets/profile_widget.dart';
 
 class SettingPage extends StatefulWidget {
   const SettingPage({super.key});

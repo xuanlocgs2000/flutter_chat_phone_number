@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_chat_phone_number/features/user/app/const/app_const.dart';
-import 'package:flutter_chat_phone_number/features/user/app/global/widgets/profile_widget.dart';
-import 'package:flutter_chat_phone_number/features/user/app/home/home_page.dart';
+import 'package:flutter_chat_phone_number/features/app/const/app_const.dart';
+import 'package:flutter_chat_phone_number/features/app/global/widgets/profile_widget.dart';
+import 'package:flutter_chat_phone_number/features/app/home/home_page.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 

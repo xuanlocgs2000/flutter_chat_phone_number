@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_chat_phone_number/features/user/app/const/page_const.dart';
-import 'package:flutter_chat_phone_number/features/user/app/global/widgets/profile_widget.dart';
+import 'package:flutter_chat_phone_number/features/app/const/page_const.dart';
+import 'package:flutter_chat_phone_number/features/app/global/widgets/profile_widget.dart';
 import 'package:intl/intl.dart';
 
 class ChatPage extends StatefulWidget {

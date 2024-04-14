@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_phone_number/features/chat/presentation/pages/contact_page.dart';
 import 'package:flutter_chat_phone_number/features/chat/presentation/pages/single_chat_page.dart';
-import 'package:flutter_chat_phone_number/features/user/app/const/page_const.dart';
-import 'package:flutter_chat_phone_number/features/user/app/settings/settings_page.dart';
+import 'package:flutter_chat_phone_number/features/app/const/page_const.dart';
+import 'package:flutter_chat_phone_number/features/app/settings/settings_page.dart';
 
 class OnGenerateRoute {
   static Route<dynamic>? route(RouteSettings settings) {
