@@ -13,6 +13,7 @@ class _OtpPageState extends State<OtpPage> {
   // String get _phoneNumber => widget.phoneNumber;
 
   TextEditingController _pinCodeController = TextEditingController();
+  TextEditingController _pinCodeController2 = TextEditingController();
   @override
   void dispose() {
     _pinCodeController.dispose();
